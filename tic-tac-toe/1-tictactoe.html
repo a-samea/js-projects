@@ -67,11 +67,17 @@
     <script>
         const board = document.getElementById("board")
 
+        const text = document.querySelector("header h2")
         if (board) {
             const numberOfBoards = board.children.length
             console.log(numberOfBoards)
         }
+
+        if (text) {
+            text.append(" and love  ")
+        }
     </script>
+
 </body>
 
 </html>
